@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export OUTPUT_DIR=/data/kalpesh/style_paraphrase_data
+export OUTPUT_DIR="C:\Users\timjo\FSDL\style-transfer-paraphrase\"
 
 mkdir -p $OUTPUT_DIR/generated_outputs/queue
 mkdir -p $OUTPUT_DIR/generated_outputs/inputs
