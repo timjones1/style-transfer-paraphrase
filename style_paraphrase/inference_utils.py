@@ -50,7 +50,7 @@ class GPT2Generator(object):
         args.temperature = 0
         args.top_p = top_p
         args.top_k = 1
-        args.device = torch.cuda.current_device()
+        args.device = ('cpu') #torch.cuda.current_device()
 
     def modify_p(self, top_p):
         self.args.top_p = top_p
