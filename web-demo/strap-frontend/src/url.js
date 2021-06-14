@@ -1,3 +1,3 @@
-const SERVER_URL = "http://arkham.cs.umass.edu:8554"
+const SERVER_URL = "http://127.0.0.1:3005"
 
 export default SERVER_URL;

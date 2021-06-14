@@ -167,17 +167,17 @@ class SquashDemo extends React.Component {
             <div className="container-fluid">
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Reformulating Unsupervised Style Transfer as Paraphrase Generation</title>
+                    <title>Rephrasing Toxic Comments using Unsupervised Text Style Transfer </title>
                 </Helmet>
                 <Row>
                     <Col md={{order: 2, size: 5}} xs={{order: 1}}>
-                        <h5>A demo for <a href="https://arxiv.org/abs/2010.05700">Reformulating Unsupervised Style Transfer as Paraphrase Generation</a></h5>
-                        <p>This system rewrites text using a specified target style while preserving semantic information. <br/> <b>No parallel style transfer data was used to train this system</b>.
-                         Check out our <a href="http://style.cs.umass.edu/">landing page</a> for links to the code, paper and dataset. Note that we are not performing any filtering on our model outputs
-                         and they might occasionally be biased like many <a href="https://arxiv.org/pdf/2005.14165.pdf#page=36">modern text generation systems</a>. <br />
-
-                         The source code for the demo can be found <a href="https://github.com/martiansideofthemoon/style-transfer-paraphrase/tree/master/web-demo">here</a>.
-                         Contact <a href="mailto:kalpesh@cs.umass.edu">kalpesh@cs.umass.edu</a> if you run into any issues.</p>
+                        <h4>Rephrasing Toxic Comments </h4>
+                        <h5>Using Unsupervised Text Style Transfer </h5>
+                        <p>Adapted from the paper: <a href="https://arxiv.org/abs/2010.05700">Reformulating Unsupervised Style Transfer as Paraphrase Generation</a></p>
+                        <p>This adaption was a first attempt to rephrase toxic comments in a more civil manner using unsupervised techniques described in the above paper<br/> 
+                        The original and much more interesting site is here: <a href="http://style.cs.umass.edu/">http://style.cs.umass.edu/</a>. <br />
+                        Original source code available <a href="https://github.com/martiansideofthemoon/style-transfer-paraphrase/tree/master/web-demo">here</a>.<br/>
+                        </p>
                     </Col>
                     <Col md={{order: 2, size: 7}} xs={{order: 2}}>
                     </Col>

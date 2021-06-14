@@ -26,7 +26,7 @@ function RequestForm(props) {
                         choose an example
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem tag="a" href="/?id=1adb3684e0d6113205e4e59a">so uh what do you wear to work ---&gt; Shakespeare</DropdownItem>
+                        <DropdownItem tag="a" href="/?id=1adb3684e0d6113205e4e59a">When will the indiginoues be accountable and take responsibility instead of blaming others? they have to be accountable and pay their own way or go it alone. ---&gt; Toxic</DropdownItem>
                         <DropdownItem tag="a" href="/?id=8c5893be42e46daa81a67ae9">yall kissing before marriage? ---&gt; Shakespeare</DropdownItem>
                         <DropdownItem tag="a" href="/?id=781ea338754bb2d09c13adbb">For the foul thief is just at your gate ---&gt; Bible</DropdownItem>
                         <DropdownItem tag="a" href="/?id=42f29b78e2ba53ac125739f1">when ur going thru an episode and cant cope anymore ---&gt; Bible</DropdownItem>
@@ -51,11 +51,8 @@ function RequestForm(props) {
                         {props.targetStyle === null ? "choose a target style" : props.targetStyle}
                     </DropdownToggle>
                     <DropdownMenu>
-                        <DropdownItem onClick={() => props.toggleStyle("Bible")}>Bible</DropdownItem>
-                        <DropdownItem onClick={() => props.toggleStyle("Romantic Poetry")}>Romantic Poetry</DropdownItem>
-                        <DropdownItem onClick={() => props.toggleStyle("Shakespeare")}>Shakespeare</DropdownItem>
-                        <DropdownItem onClick={() => props.toggleStyle("Conversational Speech")}>Conversational Speech</DropdownItem>
-                        <DropdownItem onClick={() => props.toggleStyle("Tweets")}>Tweets</DropdownItem>
+                        <DropdownItem onClick={() => props.toggleStyle("Toxic")}>More Insulting</DropdownItem>
+                        <DropdownItem onClick={() => props.toggleStyle("Less Insulting")}>Less Insulting</DropdownItem>
                     </DropdownMenu>
                 </Dropdown>
             </div>
